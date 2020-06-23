@@ -14,6 +14,7 @@
 		069DC5E724A1EB4A0012B19C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069DC5E624A1EB4A0012B19C /* Assets.xcassets */; };
 		069DC5EA24A1EB4A0012B19C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069DC5E824A1EB4A0012B19C /* LaunchScreen.storyboard */; };
 		069DC5F524A1EB4A0012B19C /* MaterialTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069DC5F424A1EB4A0012B19C /* MaterialTextFieldTests.swift */; };
+		069DC60124A1EB750012B19C /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069DC60024A1EB750012B19C /* MaterialTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		069DC5F024A1EB4A0012B19C /* MaterialTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		069DC5F424A1EB4A0012B19C /* MaterialTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialTextFieldTests.swift; sourceTree = "<group>"; };
 		069DC5F624A1EB4A0012B19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		069DC60024A1EB750012B19C /* MaterialTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		069DC5D124A1EB470012B19C = {
 			isa = PBXGroup;
 			children = (
+				069DC5FF24A1EB680012B19C /* Library */,
 				069DC5DC24A1EB470012B19C /* MaterialTextField */,
 				069DC5F324A1EB4A0012B19C /* MaterialTextFieldTests */,
 				069DC5DB24A1EB470012B19C /* Products */,
@@ -97,6 +100,14 @@
 				069DC5F624A1EB4A0012B19C /* Info.plist */,
 			);
 			path = MaterialTextFieldTests;
+			sourceTree = "<group>";
+		};
+		069DC5FF24A1EB680012B19C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				069DC60024A1EB750012B19C /* MaterialTextField.swift */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +213,7 @@
 			files = (
 				069DC5E224A1EB470012B19C /* ViewController.swift in Sources */,
 				069DC5DE24A1EB470012B19C /* AppDelegate.swift in Sources */,
+				069DC60124A1EB750012B19C /* MaterialTextField.swift in Sources */,
 				069DC5E024A1EB470012B19C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
